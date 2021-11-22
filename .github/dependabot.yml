@@ -1,10 +1,10 @@
 version: 2
 updates:
 - package-ecosystem: pip
-  directory: /
+  directory: /docker/pcap-http-extractor
   schedule:
     interval: daily
 - package-ecosystem: docker
-  directory: /
+  directory: /docker/pcap-http-extractor
   schedule:
     interval: daily
